@@ -1,42 +1,25 @@
-# Nuxt 3 Minimal Starter
+<div align="center">
+  <h1>Nuxt 3 Starter & Boilerplate</h1>
+  <p>🚀 Nuxt 3 boilerplate with useful features</p>
+</div>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Features ✨
+-   [x] 🧹 ESLint
+-   [x] 🔨 Husky & CommitLint & Commitizen & Lint-Staged
+-   [x] 🎯 Vitest
+-   [x] 💨 UnoCSS
+-   [x] ✨ Headless UI
+-   [x] 🖋 Icon Components
+-   [x] 🎁 SEO Kit
 
-## Setup
+## Notes 👌
+1. SEO Kit utilize [satori](https://github.com/vercel/satori) under the hood. You can play with OG images at `http://localhost:3000/__og_image__`.
+2. NuxtIcon uses [Iconify](https://iconify.design/). You can explore different icones at [icones.js.org](https://icones.js.org/).
+3. This boilerplate uses husky for linting code, commit message and testing the code. You will be prompted with commitizen message when using `git commit` or `git commit -m "<your message>"`. The latter commit message will be overriden by the commitizen prompt.
 
-Make sure to install the dependencies:
+## License 📎
+[MIT License](./LICENSE)
 
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+<!-- Badges -->
+[license-src]: https://img.shields.io/github/license/nuxt-modules/icon.svg?style=flat&colorA=002438&colorB=28CF8D
+[license-href]: https://github.com/Zerro97/khuibeom.com/blob/main/LICENSE
